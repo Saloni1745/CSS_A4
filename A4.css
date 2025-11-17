@@ -1,0 +1,153 @@
+.head{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-size: 30px;
+    background: linear-gradient(to right, red, green, yellow);
+}
+.b1{
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin:20px 30%;
+    height:200px;
+    width: 1200px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: large;
+}
+
+.b2 {
+  background-color: rgb(38, 239, 172);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  border: 2px solid red;
+  border-radius: 20px;
+   margin:20px;
+}
+
+.card {
+  height: 200px;
+  width: 30%;  /* 3 cards per row */
+  background-color: aqua;
+  border: 2px solid red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-size: 30px;
+    padding:10px;
+    background: linear-gradient(to right, red,orange, yellow);
+    margin :20px;
+}
+.b3{
+    background: radial-gradient(rgb(55, 83, 239),hsla(181, 87%, 40%, 0.761),rgb(12, 212, 156));
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    padding: 20px ;
+   margin:20px;
+}
+.cards{
+    height:250px;
+    width:400px;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 20px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:50px;
+}
+.head3{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-size: 30px;
+    color: white;
+    margin:20px;
+}
+.b4{
+    border:3px solid black;
+}
+ .GRID {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.c1 {
+  background-color: rgb(147, 234, 149);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.c2 {
+  background-color: rgb(124, 201, 239);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.c3 {
+  background-color: rgb(23, 23, 224);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.c4 {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / 5;  
+  grid-row: 1 / span 2; 
+}
+
+.c5 {
+  background-color: rgb(241, 112, 61);
+  color: white;
+  height: 100px;
+  grid-column: 1 / span 3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head4{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-size: 30px;
+}
